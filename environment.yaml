@@ -1,0 +1,19 @@
+name: ml-applied-research
+
+# conda-forge provides consistent builds for macOS, Linux, and Windows.
+# nodefaults prevents packages from incompatible channels being mixed.
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python>=3.11,<3.13
+  - numpy>=1.26,<3
+  - scipy>=1.12,<2
+  - pandas>=2.1,<4
+  - matplotlib>=3.8,<4
+  - scikit-learn>=1.4,<2
+  - ucimlrepo>=0.0.7,<1
+  - jupyterlab>=4,<5
+  - notebook>=7,<8
+  - ipykernel>=6,<8
